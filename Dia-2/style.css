@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: #10355cf3;
+}
+
+#cadastro {
+    background-color: #FFF;
+    width: 30%;
+    margin: 3em auto;
+    padding: 1.3em;
+    border-radius: 13px;
+}
+
+.titulo {
+    padding-bottom: 13px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.caixa {
+    width: 60%;
+    height: 21px;
+}
+
+#nome,
+#idade,
+#linguagem {
+    padding: 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+#linguagem {
+    font-size: 15px;
+
+}
+
+#btnEnvia {
+    width: 40%;
+    height: 40px;
+    background-color: #ccd9e8f3;
+    margin: 1em 30% 1em;
+    cursor: pointer;
+    transition: all .3s;
+    border: none;
+    border-radius: 8px;
+    max-height: 50px;
+}
+
+#btnEnvia:hover {
+    background-color: #668bb7f3;
+    color: #FFF;
+    height: 50px;
+}
+
+form label,
+form legend {
+    display: block;
+    margin: 0 0 20px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#gosto {
+    font-size: 15px;
+    width: 40%;
+    padding-right: 30px;
+    margin: 1em;
+    border-right: 1px solid #ccc;
+
+}
+
+
+
+
+#submit {
+    width: 20%;
+    position: absolute;
+    right: 34.5%;
+    top: 32.8%;
+}
